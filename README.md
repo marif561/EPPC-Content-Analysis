@@ -76,14 +76,6 @@ python scripts/threads/adjusted_thread_models.py `
   --threads work/thread_level_dataset.csv
 ```
 
-## What stays off GitHub
 
-Raw or de-identified message bodies, JSONL predictions, results, figures, linkage keys, and MRNs. See `.gitignore` and `data/README.md`.
 
-## Contributing
 
-Create a branch from `main`, do not commit data or outputs, and open a pull request.
-
-## Citation
-
-Cite the EPPC framework, EPPCMinerBen / EPPC-CARE methods work, and the JAMIA manuscript when published.
