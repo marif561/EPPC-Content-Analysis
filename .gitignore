@@ -1,0 +1,42 @@
+# Clinical data and model outputs — never commit
+data/*
+!data/README.md
+work/
+results/
+out/
+*.jsonl
+*.pkl
+predictions*
+*_Message_Level.csv
+*_Annotation_Level.csv
+*_CONFIDENTIAL*
+thread_level_dataset.csv
+thread_only*.csv
+
+# Figures and manuscript assets
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+Fig/
+JAMIA_Overleaf/
+
+# Spreadsheets with counts or text
+*.xlsx
+*.xls
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.zip
